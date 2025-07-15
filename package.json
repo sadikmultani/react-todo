@@ -1,0 +1,54 @@
+{
+  "name": "todo-app",
+  "author": "Sadik Multani",
+  "description": "A simple todo app built with React and Tailwind CSS. This is a simple todo app that allows you to add, edit, and delete todos. It also allows you to filter todos by status and priority.",
+  "homepage": "https://sadik-todo-app.netlify.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadik-multani/todo-app"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "react",
+    "tailwind",
+    "typescript"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "framer-motion": "^12.23.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.4.35",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4"
+  }
+}
