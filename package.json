@@ -2,10 +2,10 @@
   "name": "todo-app",
   "author": "Sadik Multani",
   "description": "A simple todo app built with React and Tailwind CSS. This is a simple todo app that allows you to add, edit, and delete todos. It also allows you to filter todos by status and priority.",
-  "homepage": "https://sadik-todo-app.netlify.app",
+  "homepage": "https://sadik-react-todo.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sadik-multani/todo-app"
+    "url": "https://github.com/sadikmultani/react-todo/"
   },
   "keywords": [
     "todo",
